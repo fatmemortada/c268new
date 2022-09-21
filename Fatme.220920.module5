@@ -1,0 +1,120 @@
+    1  history
+    2  pwd
+    3  cd /var/log
+    4  cd ..
+    5  pwd
+    6  ls
+    7  ls -l
+    8  ls -rl
+    9  cd ~
+   10  cd /
+   11  cd ..
+   12  man ls
+   13  cd /var
+   14  ls -rS
+   15  uname -m
+   16  cd ~
+   17  history > fatme.220920.module2
+   18  mv fatme.220920.module2 c268new
+   19  cd c268new
+   20  ls
+   21  git init
+   22  git add fatme.220920.module2
+   23  git commit -m "Basic Commands to Survive"
+   24  git push
+   25  find fixGenerator.sh
+   26  cd ~
+   27  find fixGenerator.sh
+   28  cd /home/ec2-user
+   29  ls
+   30  cat fixGenerator.sh
+   31  cat -n  fixGenerator.sh
+   32  cat fixlog20220920190
+   33  ls
+   34  cat fixlog20220920190.log > newlog.log
+   35  ls
+   36  cat fixGenerator.sh
+   37  ls
+   38  tail -f fixlog*
+   39  ls
+   40  rm fixGenerator.sh
+   41  rm fixGenerator.sh.1
+   42  rm fle
+   43  rm fixlog20220920190510.log
+   44  rm fixlog20220920190711.log
+   45  rm using
+   46  rm usingVi
+   47  ls
+   48  rm fixGenerator.sh.2
+   49  rm newlog.log
+   50  rm file
+   51  ls
+   52  cd c268new
+   53  ls
+   54  rm Fatme.220920.module2
+   55  rm fatme.220919.module2
+   56  ls
+   57  cd ~
+   58  ls
+   59  vi fixGenerator.sh
+   60  cat fixGenerator.sh
+   61  vi fixGenerator.sh
+   62  chmod 700 fixGenerator.sh
+   63  ./fixGenerator.sh &
+   64  cat fixGenerator.sh
+   65  cat -n fixGenerator.sh
+   66  cat fixlog > newlog.log
+   67  cat fixlog.log > newlog.log
+   68  mkdir logs
+   69  mv newlog.log logs
+   70  cd logs
+   71  ls
+   72  cat fixlog >> logs/newlog.log
+   73  cat fixlog
+   74  cat fixlog.log > logs/newlog.log
+   75  cd ~
+   76  cat fixlog >> logs/newlog.log
+   77  find fixlog
+   78  cat newlog.log >> logs/newlog.log
+   79  cat fixlog* >> logs/newlog.log
+   80  ln -s newlog.log Daily
+   81  ls
+   82  mv Daily logs
+   83  cd logs
+   84  ls
+   85  cd /
+   86  cat fixlog* | less
+   87  cd ~
+   88  cd ..
+   89  cat fixlog* | less
+   90  cd ~ 
+   91  cat fixlog* | less
+   92  /35=D
+   93  man less
+   94  / 35=D
+   95  /35 =D
+   96  man less
+   97  cat fixlog* | less
+   98  grep 35=D fixlog* > logs/newOrders.log
+   99  cp logs/newOrders.log ~
+  100  wc -l logs/newOrders.log
+  101  cat fixlog* | less
+  102  grep 54=1 fixlog* > logs/buymessages.log
+  103  wc -l logs/buymessages.log
+  104  grep 35=D logs/buymessages.log | wc -l
+  105  grep -v 35=d fixlog* > logs/noneworders.log
+  106  wc logs/noneworders.log
+  107  wc -w logs/noneworders.log
+  108  tail 5 logs/noneworders.log
+  109  tail -n 5 logs/noneworders.log
+  110  grep appl fixlog* | head 2
+  111  grep appl fixlog* | head -n2
+  112  grep appl fixlog* | head -n 2
+  113  ln -s fixGenerator.sh fix
+  114  tail -f fixlog* | grep 35=D
+  115  mkdir superLogs
+  116  cp -r logs superLogs/.
+  117  grep -c FB fixlog*
+  118  wc -w fixlog*
+  119  grep 35=D fixlog* | grep NFLX | wc -l 
+  120  history > Fatme.220920.module5
