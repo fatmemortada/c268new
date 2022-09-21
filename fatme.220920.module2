@@ -1,0 +1,17 @@
+    1  history
+    2  pwd
+    3  cd /var/log
+    4  cd ..
+    5  pwd
+    6  ls
+    7  ls -l
+    8  ls -rl
+    9  cd ~
+   10  cd /
+   11  cd ..
+   12  man ls
+   13  cd /var
+   14  ls -rS
+   15  uname -m
+   16  cd ~
+   17  history > fatme.220920.module2
