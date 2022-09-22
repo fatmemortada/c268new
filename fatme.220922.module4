@@ -1,0 +1,56 @@
+    1  Stock=Appl
+    2  echo $Stock
+    3  Appl=Apll_US
+    4  Appl=Appl_US
+    5  echo $Stock
+    6  Stock=Appl_Us
+    7  echo $Stock
+    8  Price=290.84
+    9  echo "The current price of is" $Price
+   10  echo "The current price of" $Stock "is" $Price
+   11  WHOAMI=fatmemortada
+   12  SERVERTYPE=$(uname)
+   13  echo$($SERVERTYPE)
+   14  echo$($uname)
+   15  echo SERVERTYPE
+   16  echo "$SERVERTYPE"
+   17  CMD=uname-i
+   18  echo ($CMD)
+   19  echo CMD
+   20  CMD = "uname-i"
+   21  CMD= "uname -i"
+   22  CMD="uname-i"
+   23  echo $CMD
+   24  echo '$CMD'
+   25  cd ~
+   26  echo $PATH
+   27  export PATH=$PATH:~/scripts/
+   28  echo $PATH
+   29  rm -rf Algo1
+   30  mkdir Payment1
+   31  cd Payment1
+   32  mkdir logs configuration scripts
+   33  cd scripts
+   34  touch start.sh
+   35  cd configuration
+   36  cd ..
+   37  cd configuration
+   38  touch instance.properties
+   39  chmod 744 Payment1/configuration/instance.properties
+   40  cd..
+   41  chmod 744 instance.properties
+   42  chmod 771 Payment1/scripts/start.sh
+   43  cd ~
+   44  chmod 771 Payment1/scripts/start.sh
+   45  man cat > cat.output
+   46  chmod 474 cat.output
+   47  cd ~
+   48  pwd
+   49  rm -rf Payment1
+   50  rm -i cat.output
+   51  mkdir temp
+   52  Mytemp=~/temp
+   53  echo $Mytemp
+   54  Mytemp=
+   55  rm -rf temp
+   56  history > fatme.220922.module4
